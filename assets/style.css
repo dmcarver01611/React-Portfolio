@@ -1,0 +1,261 @@
+body {
+    background-color: rgb(147, 211, 179);
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1.5rem;
+    line-height: 1;
+    padding: -20px;
+}
+
+
+h1 {
+    font-size: 40px;
+    color: var(--pink);
+    text-align: center;
+}
+
+#design {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#nav {
+    display:flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.item {
+    padding: 10px;
+}
+
+#about-box {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 80%;
+    height: 50%;
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-radius: 25px;
+    border-color:white
+}
+
+#about {
+    position:absolute;
+    font-size: 24px;
+    top: 20px;
+    left: 150px;
+    width: 300px;
+}
+
+#selfie {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    left: 105px;
+}
+
+#about1 {
+    position:absolute;
+    font-size: 15px;
+    line-height: 25px;
+    width: 500px;
+    top: 50px;
+    right: 150px;
+}
+
+#about2 {
+    position:absolute;
+    font-size: 15px;
+    line-height: 25px;
+    width: 500px;
+    top: 170px;
+    right: 150px;
+}
+
+#project-box {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    top: 520px;
+    left: 130px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-radius: 25px;
+    border-color:white
+}
+
+#project {
+    position:absolute;
+    font-size: 24px;
+    top: 20px;
+    left: 150px;
+    width: 300px;
+}
+
+.horiseon {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    left: 105px;
+}
+
+.starry {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    left: 400px;
+}
+
+.scream {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 60px;
+    left: 700px;
+}
+
+#sunrise-p {
+    position: absolute;
+    top: 280px;
+    left: 140px;
+}
+
+#sunrise-date {
+    position: absolute;
+    top: 300px;
+    left: 190px;
+}
+
+#starry-p {
+    position: absolute;
+    top: 280px;
+    left: 440px;
+}
+
+#starry-date {
+    position: absolute;
+    top: 300px;
+    left: 480px;
+}
+
+#scream-p {
+    position: absolute;
+    top: 280px;
+    left: 765px;
+}
+
+#scream-date {
+    position: absolute;
+    top: 300px;
+    left: 775px;
+}
+
+#slideshow-box {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 900px;
+    left: 130px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-radius: 25px;
+    border-color:white
+}
+
+#project-box {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    top: 520px;
+    left: 130px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-radius: 25px;
+    border-color:white
+}
+
+.thumbnail:hover {
+    transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+}
+
+#contact {
+    position:absolute;
+    font-size: 24px;
+    top: 20px;
+    left: 150px;
+    width: 300px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    top: 895px;
+    left: 130px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    border-radius: 25px;
+    border-color:white
+}
+
+.contact-box {
+    position: absolute;
+    top: 900px;
+}
+
+#email {
+    position: absolute;
+    top: 75px;
+    left: 100px;
+    width: 800px;
+    height: 40px;
+}
+
+#subject {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    width: 800px;
+    height: 40px;
+}
+
+#enter-here {
+    position: absolute;
+    top: 165px;
+    left: 100px;
+    width: 800px;
+    height: 120px;
+}
+
+.btn {
+    position: absolute;
+    top: 290px;
+    left: 100px;
+    width: 140px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(147, 211, 179)
+}
